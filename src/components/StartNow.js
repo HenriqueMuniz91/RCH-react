@@ -1,5 +1,5 @@
 import React from 'react';
-import './StartNow.css';
+import './StartNow.module.css';
 
 const StartNow = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import './ProcessSection.css';
+import './ProcessSection.module.css';
 
 const ProcessSection = ({ number, title, text, imgSrc, isGray }) => {
   return (
