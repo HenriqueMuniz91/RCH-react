@@ -1,8 +1,8 @@
 import React from 'react';
-import Header from './components/Header';
-import ProcessSection from './components/ProcessSection';
-import StartNow from './components/StartNow';
-import Footer from './components/Footer';
+import Header from './pages/ourProcess/components/Header';
+import ProcessSection from './pages/ourProcess/components/ProcessSection';
+import StartNow from './pages/ourProcess/components/StartNow';
+import Footer from './pages/ourProcess/components/Footer';
 import './App.css';
 
 function App() {
