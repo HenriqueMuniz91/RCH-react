@@ -1,4 +1,18 @@
-#mainBox {
+body {
+    font-family: 'futura';
+    margin: 0;
+}
+
+#logoText{
+    color: white;
+}
+
+#logoText img{
+    width: 50px;
+    color: white;
+}
+
+.mainBox {
     background-image: url(./palestra-1024x661.jpg);
     background-color: black;
     padding: 20px;
