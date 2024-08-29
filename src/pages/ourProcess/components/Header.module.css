@@ -3,11 +3,11 @@ body {
     margin: 0;
 }
 
-#logoText{
+.logoText{
     color: white;
 }
 
-#logoText img{
+.logoText img{
     width: 50px;
     color: white;
 }
@@ -29,12 +29,12 @@ body {
     max-width: 1200px;
 }
 
-#headerLinks {
+.headerLinks {
     display: flex;
     gap: 15px;
 }
 
-#headerLinks a {
+.headerLinks a {
     color: white;
     text-decoration: none;
 }

@@ -6,10 +6,10 @@ const Header = () => {
   return (
     <header className={ styles.mainBox }>
       <div id="box">
-        <ul class="logoText">
+        <ul className={ styles.logoText }>
           <img src={logoText} alt="Logo" />
         </ul>
-        <ul id="headerLinks">
+        <ul className={ styles.headerLinks }>
           <li><a href="index.html">Home</a></li>
           <li><a href="reviews.html">Reviews</a></li>
           <li><a href="Speakers.html">Speakers</a></li>
