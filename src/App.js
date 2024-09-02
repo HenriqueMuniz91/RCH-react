@@ -1,6 +1,6 @@
 import React from 'react';
 import Header from './pages/ourProcess/components/Header';
-import ProcessSection from './pages/ourProcess/components/ProcessSection';
+import ProcessSection from './pages/ourProcess/components/ProcessSections';
 import StartNow from './pages/ourProcess/components/StartNow';
 import Footer from './pages/ourProcess/components/Footer';
 import './App.css';
