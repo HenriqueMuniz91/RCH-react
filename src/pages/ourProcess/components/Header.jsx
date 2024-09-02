@@ -5,7 +5,7 @@ import logoText from '../../../img/LogoText.png';
 const Header = () => {
   return (
     <header className={ styles.mainBox }>
-      <div id="box">
+      <div className={ styles.box }>
         <ul className={ styles.logoText }>
           <img src={logoText} alt="Logo" />
         </ul>
@@ -17,17 +17,17 @@ const Header = () => {
           <li><a href="eventPackages.html">Tickets</a></li>
           <li><a href="contact.html">Contact Us</a></li>
         </ul>
-        <div className="buttons">
+        <div className={ styles.buttons }>
           <li id="magnifing_glass">
             <img src="./img/outline_search_white_24dp.png" alt="Search" />
           </li>
-          <li id="get">
+          <li className={ styles.get }>
             Get tickets
             <img src="./img/outline_arrow_right_alt_white_24dp.png" alt="Arrow" />
           </li>
         </div>
       </div>
-      <div id="box_title">
+      <div className={ styles.box_title} >
         <h1 id="title">Nosso Processo</h1>
         <h3 id="descricao">Find what you are looking for!</h3>
       </div>
