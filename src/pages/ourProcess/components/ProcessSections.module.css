@@ -27,13 +27,7 @@
     height: 50vh;
     max-width: 100%;
 }
-#box{
-    width: 100%;
-    flex-direction: flex;
-    justify-content: space-between;
-    display: flex;
-    padding-top: 30px;
-}
+
 
 #headerLinks{
     display: flex;
@@ -113,7 +107,7 @@
     font-size: 15px;
 }
 
-#number{
+.number{
     color: #E27613;
     display: flex;
     justify-content: center;
@@ -121,7 +115,7 @@
     font-size: 60px;
 }
 
-#image{
+.image{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -141,12 +135,12 @@
     text-align: justify;
 }
 
-#process_title{
+.process_title{
     font: 'futura-bold';
     font-size: 20px;
 }
 
-#process_text{
+.process_text{
     font-size: 15px;
     color: #062528;
 }
