@@ -1,9 +1,9 @@
 import React from 'react';
-import './StartNow.module.css';
+import Styles from './StartNow.module.css';
 
 const StartNow = () => {
   return (
-    <section className="startNow">
+    <section className={ Styles.startNow }>
       <div id="startNowText">
         Improve Your Business And Make your Work Easy
       </div>
