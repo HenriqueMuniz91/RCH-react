@@ -1,11 +1,11 @@
 import React from 'react';
-import './Footer.module.css';
+import Styles from './Footer.module.css';
 
 const Footer = () => {
   return (
-    <footer id="fot">
-      <div className="footer_p">
-        <div id="social">
+    <footer className={ Styles.fot }>
+      <div className={ Styles.footer_p }>
+        <div className={ Styles.social }>
           <h1 id="tit2">Lviv</h1>
           <p>Lviv has something for everyone with an impressive array of over 25 brilliantly-styled page templates.</p>
           <div id="redes_sociais">
