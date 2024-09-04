@@ -4,6 +4,7 @@ import ProcessSection from './pages/ourProcess/components/ProcessSections';
 import StartNow from './pages/ourProcess/components/StartNow';
 import Footer from './pages/ourProcess/components/Footer';
 import './App.css';
+import img_process_one from './img/Process-01.png';
 
 function App() {
   return (
@@ -13,7 +14,7 @@ function App() {
         number="01"
         title="Impactando Pessoas Através da Educação Descentralizada"
         text="Nossa missão é capacitar pessoas de todas as idades e origens por meio de programas educacionais inovadores sobre blockchain, criptomoedas e a nova fase da internet. Estamos pavimentando o futuro ao fornecer conhecimento prático e relevante para impulsionar carreiras e oportunidades."
-        imgSrc="./img/Process-01.png"
+        imgSrc={ img_process_one }
       />
       <ProcessSection
         number="02"
