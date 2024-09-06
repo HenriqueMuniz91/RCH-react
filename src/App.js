@@ -6,6 +6,7 @@ import Footer from './pages/ourProcess/components/Footer';
 import './App.css';
 import img_process_one from './img/Process-01.png';
 import img_process_two from './img/Process-02.png';
+import img_process_three from './img/Process-03.png';
 
 function App() {
   return (
@@ -28,7 +29,7 @@ function App() {
         number="03"
         title="Inovação Tecnológica para um Futuro Sustentável"
         text="Estamos na vanguarda da inovação tecnológica, explorando soluções blockchain para desafios globais como sustentabilidade ambiental, finanças descentralizadas e identidade digital. O Rio Crypto Hub impulsiona o desenvolvimento de tecnologias disruptivas que impactam positivamente o mundo."
-        imgSrc="./img/Process-03.png"
+        imgSrc={ img_process_three }
       />
       <StartNow />
       <Footer />
